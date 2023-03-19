@@ -4,7 +4,6 @@ import { HeroIcons } from "../HeroIcons";
 
 const NavBar = () => {
   const { amount } = useSelector((store) => store.cart);
-  console.log(amount);
 
   return (
     <nav>
